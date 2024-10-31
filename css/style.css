@@ -20,8 +20,28 @@ a {
 li {
   list-style: none;
 }
+img { 
+  width: 100%;
+}
 .container {
   width: 100%;
   max-width: 1180px;
   margin: auto;
+}
+body {
+  background-color: var(--backgraund);
+}
+.header-nav {
+  display: flex;
+  gap: 30rem;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 4rem;
+}
+.header-logo {
+  width: 4rem;
+}
+.header-nav-bar {
+  display: flex;
+  gap: 4rem;
 }
