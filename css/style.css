@@ -10,12 +10,20 @@
   --cor-secundary:#FFF;
   --cor-terciary:#E1EEF3;
   --cor-secundary:#42454A;
-  --btn-header:#68C4BA;
+  --btn:#68C4BA;
   --btn-main:#7EBBD0;
   --backgraund-main-card:#86C4D9;
 }
 a {
+  color:#596774;
+  font-size: 0.8rem;
+  text-transform: uppercase;
   text-decoration: none;
+  transition: 0.5s;
+}
+a:hover {
+  color:#68C4BA ;
+  text-decoration: underline;
 }
 li {
   list-style: none;
@@ -44,4 +52,25 @@ body {
 .header-nav-bar {
   display: flex;
   gap: 4rem;
+}
+.btn {
+  color: #FFF;
+  font-size: 0.6rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  background-color: #68C4BA;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, 
+  rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, 
+  rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, 
+  rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, 
+  rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+  rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  display: block;
+  padding: 0.4rem 1.4rem;
+  margin-top: -0.4rem;
+  transition: 0.5s;
+}
+.btn:hover {
+  background-color: #596774;
 }
