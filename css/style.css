@@ -4,6 +4,16 @@
   box-sizing: border-box;
   font-family: "Inter", serif;
 }
+--root {
+  --backgraund: #CBDEEC;
+  --cor-primary:#000;
+  --cor-secundary:#FFF;
+  --cor-terciary:#E1EEF3;
+  --cor-secundary:#42454A;
+  --btn-header:#68C4BA;
+  --btn-main:#7EBBD0;
+  --backgraund-main-card:#86C4D9;
+}
 a {
   text-decoration: none;
 }
