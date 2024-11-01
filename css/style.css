@@ -158,6 +158,14 @@ body {
   top: 220px;
   z-index: 1;
 }
+.main-container-img3 {
+  position: absolute;
+  width: 100%;
+  width: 250px;
+  margin-left: 100px;
+  top: 510px;
+  z-index: 1;
+}
 .main-container-info button {
   color: #FFF;
   font-size: 0.6rem;
@@ -173,4 +181,10 @@ body {
 }
 .main-container-info button:hover {
   background-color: #596774;
+}
+footer p {
+  margin-top: 300px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 300;
 }
